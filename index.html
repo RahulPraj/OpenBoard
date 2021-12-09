@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OpenBoard_Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="options-cont">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="tools-cont scale-tools">
+        <img  class ="pencil" src="./NewIcons/Black_Pencil.svg" >
+        <img class ="eraser" src="./NewIcons/Eraser.svg" >
+        <img class ="download" src="./NewIcons/Download.svg" >
+        <img class ="upload" src="./NewIcons/Photo.svg" >
+        <img class ="stickynote" src="./NewIcons/StickyNote.svg" >
+        <img  class="undo" src="./NewIcons/Undo.svg" >
+        <img  class=" redo" src="./NewIcons/Redo.svg" >
+
+    </div>
+    <div class="pencil-tool-cont">
+        <div class="pencil-width-cont">
+            <!-- use this slider for increasing or dec the size of pencil-->
+            <input type="range" min="2" max="10" value="3">
+        </div>
+        <div class="pencil-color-cont">
+            <div class="black pencil-color"></div>
+            <div class="red pencil-color"></div>
+            <div class="blue pencil-color"></div>
+            <div class="green pencil-color"></div>
+            <div class="pink pencil-color"></div>
+        </div>
+
+    </div>
+    <div class="eraser-tool-cont">
+        <div class="eraser-width-cont">
+            <input type="range" min="2" max="10" value="3">
+        </div>
+       <div class="eraser-size-cont">
+            <div class="onesize eraser-size"></div>
+            <div class="twosize eraser-size"></div>
+            <div class="threesize eraser-size"></div>
+            <div class="foursize eraser-size"></div>
+        </div>
+        
+    </div>
+
+    
+    
+     <!-- <div class="sticky-cont">
+       <div class="header-cont">
+           <input  class = "heading" type="text" placeholder="Heading">
+           <div class="minimize"></div>
+           <div class="remove"></div>
+       </div>
+       <div class="note-cont">
+           <textarea></textarea>
+       </div>
+   </div> 
+         -->
+
+    <script src="./tool.js"></script>
+</body>
+
+
+</html>
